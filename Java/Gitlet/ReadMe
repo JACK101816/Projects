@@ -1,0 +1,36 @@
+This directory contains a skeleton for Project gitlet.
+
+For more description of this project, see https://inst.eecs.berkeley.edu/~cs61b/fa17/materials/proj/proj3/index.html
+
+========
+CONTENTS:
+   
+ReadMe                      This file.
+        
+Makefile                    For make check.
+
+gitlet/
+
+Main.java                   Entry point to program. This handles program options
+                            and sets up the necessary objects to play one or more
+                            games.
+
+Blob.java                   Describes a blob.
+
+Commands.java               Describes a command.
+
+Stage.java                  Describes a stage.
+
+Commit.java                 Describes a commit.
+   
+Reference.java              Describes a Reference.
+
+CommitTree.java             Stores the commits.
+
+ObjectSerializer.java       Serialize objects.
+
+ReferenceSerializer.java    Serialize references.
+ 
+
+
+

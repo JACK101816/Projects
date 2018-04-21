@@ -1,7 +1,7 @@
 
-This directory contains a skeleton for Project 2048.
+This directory contains a skeleton for Project Qirkat.
 
-For description of this projects, see https://inst.eecs.berkeley.edu/~cs61b/fa17/materials/proj/proj0/index.html
+For description of this projects, see https://inst.eecs.berkeley.edu/~cs61b/fa17/materials/proj/proj2/index.html
 
 CONTENTS:
 ---------
@@ -10,7 +10,7 @@ README                 This file.
 
 Makefile               For “make check”
 
-game2048/
+qirkat/
 
     Makefile           A Makefile for compiling, style checking, testing, and
                        cleaning up files in this directory.
@@ -19,17 +19,11 @@ game2048/
                        and sets up the necessary objects to play one or more
                        games.
 
-    Model.java         This class describes game state: the contents of the
-                       board and the scores.  It contains the logic for
-                       tilting the board so that tiles slide to new positions.
+    AI.java            This class describes AI player.
 
-    Tile.java          Describes a single tile on the board.
+    Board.java         Describes a board.
 
-    Side.java          An enumeration type for the directions in which the
-                       board can tilt.  Contains functions that allow you to
-                       change the coordinate system---to treat any side of
-                       the board as "south" with rows and columns rotated
-                       accordingly.
+    Move.java          Describe a single move.
 
     Game.java          Contains the logic for controlling a game: responding
                        to commands by updating the model as apppropriate.
@@ -41,10 +35,6 @@ game2048/
     GUISource.java     An InputSource that fetches inputs from a user's
                        key presses and generates tiles using a
                        pseudo-random number generator (PRNG).
-
-    TestSource.java    An InputSource that fetches recorded key presses and
-                       tile positions from a file, allowing you to create
-                       and run tests.
 
     GUI.java           Represents the graphical display of the game state and
                        receives key presses from the user.  The GUI

@@ -1,15 +1,12 @@
-This directory contains a skeleton for CS61B Project 1.
+This directory contains a skeleton for Project Database.
+
+For more description of this project, see https://inst.eecs.berkeley.edu/~cs61b/fa17/materials/proj/proj1/index.html
 
 CONTENTS:
 
 ReadMe                  This file.
         
-Makefile                A makefile (for the 'make' program) that will compile
-                        your files and run tests.  You must turn in a Makefile,
-                        'make' must compile all your files, and 
-                        'make check' must perform all your tests.  Currently,
-                        this makefile is set up to do just that with our
-                        skeleton files.  Be sure to keep it up to date.
+Makefile                For make check.
 
 staff-version           If we update the skeleton, this file will contain a
                         unique version id indicating what version of the
