@@ -1,0 +1,16 @@
+DB61B System.  Version 2.0.
+> Loaded students.db
+> Loaded enrolled.db
+> Loaded schedule.db
+> > ...Search results:
+  101 Jason
+  104 Thomas
+  105 Shana
+> > ......Search results:
+  Jonathan Xavier B+
+  Thomas Armstrong A-
+> > > .........> > Search results:
+  Jason Knowles
+  Thomas Armstrong
+  Valerie Chan
+> 
